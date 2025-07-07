@@ -1,7 +1,45 @@
 *{
     background: #0A192f;
 }
+body{
+    text-align: justify;
+}
 
-a {
+header nav .container .collapse .navbar-nav .nav-item:hover{
+    transform: scale(1.01);
+}
+
+.home .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+main section .container .text-home .btn:hover{
+    transform: scale(1.01);
+}
+
+footer .container .info-d .social .social-items{
+    list-style: none;
+}
+
+footer .container .info-d .social .social-items .social-item .social-link .footer-cons{
     color: #E2E8F0;
+}
+
+footer .container .info-d .social .social-items .social-item .social-link .footer-cons:hover{
+    transform: scale(1.01);
+}
+
+@media only screen and (max-width: 767px) {
+    .home .container{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        align-items: center;
+    }
+    .home .container .text-home{
+        grid-row: 2;
+    }
+    
 }
