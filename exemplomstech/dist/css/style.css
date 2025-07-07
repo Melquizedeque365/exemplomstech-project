@@ -1,9 +1,7 @@
 *{
     background: #0A192f;
 }
-body{
-    text-align: justify;
-}
+
 
 header nav .container .collapse .navbar-nav .nav-item:hover{
     transform: scale(1.01);
